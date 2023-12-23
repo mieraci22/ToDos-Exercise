@@ -60,4 +60,9 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
-
+//suggestions and future improvements
+//1. Input Validation:While there's a check for an empty todoText, additional input validation, such as checking for maximum length or disallowing certain characters.
+//2.The function addTodo and the event listener for form submission use different naming conventions for the todo text (text vs todoText). Consistency in naming conventions improves code readability.
+//3.The function addTodo both adds a new todo to the DOM and saves todos to localStorage. Consider separating these concerns into distinct functions for better code organization and reusability.
+//4.Implement error handling for scenarios where localStorage is not available or when there are issues with storing/retrieving data.
+//5.Consider providing visual feedback to the user when an action is successfully completed (e.g., displaying a message when a todo is added).
